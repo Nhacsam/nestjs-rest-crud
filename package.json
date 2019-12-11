@@ -1,0 +1,23 @@
+{
+  "name": "nestjs-rest-crud",
+  "version": "0.0.0",
+  "description": "Generate crud rest route automaticly for nestjs",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nhacsam/nestjs-rest-crud.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nestjs",
+    "crud",
+    "rest"
+  ],
+  "author": "Nicolas Djambazian <nicolas@djambazian.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@nhascam/nestjs-api-utils": "^0.0.0"
+  }
+}
