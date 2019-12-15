@@ -1,6 +1,6 @@
 {
   "name": "nestjs-rest-crud",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.2",
   "description": "Generate crud rest route automaticly for nestjs",
   "main": "src/index.ts",
   "repository": {
@@ -18,6 +18,7 @@
   "author": "Nicolas Djambazian <nicolas@djambazian.fr>",
   "license": "MIT",
   "dependencies": {
-    "@nhascam/nestjs-api-utils": "^0.0.0"
+    "@nestjs-rest-crud/utils": "^0.0.1-alpha.2"
   }
 }
+
