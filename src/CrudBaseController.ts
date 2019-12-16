@@ -16,9 +16,9 @@ import {
   ParsedRequest,
   CrudRequestOptions,
 } from '@nestjsx/crud';
-import { ApiOkResponse, ApiNotFoundResponse } from '@nestjs/swagger';
+import { ApiNotFoundResponse } from '@nestjs/swagger';
+import { HttpExceptionDto } from '@nestjs-rest-crud/utils';
 import { CrudServiceInterface } from './service/CrudServiceInterface';
-import { HttpExceptionDto } from '../../nestjs-api-utils';
 
 interface EmptyConstructor<T> {
   new (): T;
